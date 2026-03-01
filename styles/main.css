@@ -7,6 +7,7 @@ html {
 body {
 
     font-family: "Open Sans", sans-serif;
+    background: #F2F2F2;
 }
 
 :root {
@@ -17,7 +18,7 @@ body {
 .desktop {
 width: 1440px;
 height: 2810px;
-background: #5570e7;
+background: #d613a5;
 margin: 0 auto;
 
 }
@@ -29,8 +30,7 @@ width: 1440px;
 height: 768px;
 background: #D8D8D8;
 border: 1px solid #979797;
-left: calc(50% - 1440px/2);
-top: 0px;
+
 background-image: url('../img/bg.png');
 
 }
@@ -83,23 +83,193 @@ color: #FFFFFF;
 
 /* НАЧАЛО: SECTION  navbar*/
 .navbar_konstrukt {
+    display: flex;
 width: 1440px;
 height: 65px;
-left: calc(50% - 1442px/2);
-top: 768px;
-background: #e75586;
+background: #fff;
 margin-bottom: 58px;
 }
+.navbar_projeco-logo {
+    width: 101px;
+height: 23px;
+padding-top: 24px;
+padding-left: 251px;
+}
+.navbar_frame {
+  display: flex;
+  width: 410px;
+  height: 20px;
+  background: #FFFFFF;
+  margin-top: 27px;
+  margin-left: 425px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.navbar_HOME {
+width: 40px;
+height: 16px;
+}
+.navbar_ABOUT {
+width: 47px;
+height: 16px;
+}
+.navbar_SERVICES {
+width: 61px;
+height: 16px;
+}
+.navbar_WORK {
+ width: 40px;
+height: 16px;
+}
+.navbar_CONTACT {
+ width: 63px;
+height: 16px;
+}
+.navbar_text1 {
+font-size: 12px;
+line-height: 14px;
+align-items: flex-end;
+letter-spacing: 1.09091px;
+
+color: #48555B;
+}
+.navbar_text2 {
+font-size: 12px;
+line-height: 14px;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 1.09091px;
+
+color: #00A4E5;
+
+}
+
 /* КОНЕЦ: SECTION  navbar*/
 
 /* НАЧАЛО: SECTION  about*/
 .about {
 width: 941px;
 height: 344px;
-background: #081de0;
+background: #FFFFFF;
 margin: 0 auto;
 margin-bottom: 118px;
 }
+.about_text_OUR_STORY {
+width: 121px;
+height: 25px;
+padding-top: 2px;
+margin: 0 auto;
+margin-bottom: 7px;
+
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 2.30625px;
+
+color: #48555B;
+}
+.about_Line {
+width: 50px;
+height: 2px;
+margin-left: 447px;
+margin-bottom: 50px;
+background:  #00A4E5;
+}
+.about_box-flex {
+ display: flex;
+ width: 940px;
+ height: 255px;
+ background: #f3dede;
+}
+.about_box-text {
+width: 450px;
+}
+.about_box-text1 {
+width: 405.08px;
+height: 81px;
+padding-top: 5px;
+font-size: 20px;
+line-height: 27px;
+letter-spacing: 1px;
+margin-bottom: 55px;
+
+color: #48555B;
+}
+.about_box-text2 {
+width: 405.08px;
+height: 115px;
+font-size: 13px;
+line-height: 23px;
+/* or 177% */
+
+letter-spacing: 0.1875px;
+
+color: #48555B;
+}
+.about_box_cards-flex {
+    display: flex;
+width: 465px;
+height: 228px;
+ padding-top: 32px;
+ padding-left: 45px;
+ gap: 20px;
+}
+.about_box_cards-item1 {
+width: 140px;
+height: 224px;
+background-image: url(../img/Bitmap1.png);
+}
+
+.about_box_cards-item2 {
+width: 140px;
+height: 224px;
+background-image: url(../img/Bitmap2.png);
+}
+.about_box_cards-item3 {
+width: 140px;
+height: 224px;
+background-image: url(../img/Bitmap3.png);
+}
+.cards-item1_WE_PLAN{
+    width: 68px;
+height: 58px;
+padding-top: 15px;
+padding-left: 20px;
+font-family: var(--font-family);
+font-weight: 800;
+font-size: 24px;
+line-height: 121%;
+letter-spacing: 0.01em;
+color: #fff;
+}
+.cards-item1_WE_MANAGE {
+    width: 110px;
+height: 58px;
+padding-top: 15px;
+padding-left: 20px;
+font-family: var(--font-family);
+font-weight: 800;
+font-size: 24px;
+line-height: 121%;
+letter-spacing: 0.01em;
+color: #fff;
+}
+.cards-item1_WE_BUILD {
+    width: 76px;
+height: 58px;
+padding-top: 15px;
+padding-left: 20px;
+font-family: var(--font-family);
+font-weight: 800;
+font-size: 24px;
+line-height: 121%;
+letter-spacing: 0.01em;
+color: #fff;
+}
+
+
 /* КОНЕЦ: SECTION  about*/
 
 /* НАЧАЛО: SECTION  services*/
