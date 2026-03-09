@@ -45,10 +45,8 @@ width: 600px;
 height: 60px;
 padding-top: 310px;
 margin: 0 auto;
-margin-bottom: 8px;
+padding-bottom: 8px;
 
-}
-.bebas-neue-regular {
 font-family: var(--second-family);
 font-weight: 400;
 font-size: 60px;
@@ -150,17 +148,16 @@ color: #00A4E5;
 
 /* НАЧАЛО: SECTION  about*/
 .about {
-width: 941px;
+width: 1440px;
 height: 344px;
 background: #FFFFFF;
-margin: 0 auto;
 margin-bottom: 118px;
 }
 .about_text_OUR_STORY {
 width: 121px;
 height: 25px;
 padding-top: 2px;
-margin: 0 auto;
+margin-left: 655px;
 margin-bottom: 7px;
 
 font-size: 18px;
@@ -173,7 +170,7 @@ color: #48555B;
 .about_Line {
 width: 50px;
 height: 2px;
-margin-left: 447px;
+margin-left: 685px;
 margin-bottom: 50px;
 background:  #00A4E5;
 }
@@ -181,7 +178,7 @@ background:  #00A4E5;
  display: flex;
  width: 940px;
  height: 255px;
- background: #ffffff;
+margin-left: 200px;
 }
 .about_box-text {
 width: 450px;
@@ -219,59 +216,37 @@ height: 228px;
  padding-left: 45px;
  gap: 20px;
 }
-.about_box_cards-item1 {
-width: 140px;
+.about_box_cards-item1,
+.about_box_cards-item2,
+.about_box_cards-item3 {
+width: 150px;
 height: 224px;
+}
+
+
+.about_box_cards-item1 {
 background-image: url(../img/Bitmap1.png);
 }
 
 .about_box_cards-item2 {
-width: 140px;
-height: 224px;
 background-image: url(../img/Bitmap2.png);
 }
 .about_box_cards-item3 {
-width: 140px;
-height: 224px;
 background-image: url(../img/Bitmap3.png);
 }
-.cards-item1_WE_PLAN{
-    width: 68px;
-height: 58px;
-padding-top: 15px;
-padding-left: 20px;
+.cards-item {
 font-family: var(--font-family);
 font-weight: 800;
 font-size: 24px;
 line-height: 121%;
 letter-spacing: 0.01em;
 color: #fff;
-}
-.cards-item1_WE_MANAGE {
-    width: 110px;
-height: 58px;
-padding-top: 15px;
-padding-left: 20px;
-font-family: var(--font-family);
-font-weight: 800;
-font-size: 24px;
-line-height: 121%;
-letter-spacing: 0.01em;
-color: #fff;
-}
-.cards-item1_WE_BUILD {
-    width: 76px;
-height: 58px;
-padding-top: 15px;
-padding-left: 20px;
-font-family: var(--font-family);
-font-weight: 800;
-font-size: 24px;
-line-height: 121%;
-letter-spacing: 0.01em;
-color: #fff;
-}
 
+width: 110px;
+height: 58px;
+padding-top: 15px;
+padding-left: 20px;
+}
 
 /* КОНЕЦ: SECTION  about*/
 
@@ -695,17 +670,199 @@ color: #dbdff0;
 
 /* КОНЕЦ: SECTION  footer*/
 
-/* Очень маленькие устройства (телефоны, 600 пикселей и меньше) */
-@media only screen and (max-width: 600px) {...}
 
-/* Малые устройства (планшеты с портретной ориентацией и большие телефоны, от 600 пикселей) */
-@media only screen and (min-width: 600px) {...}
+/*  1280*/
+@media only screen and (max-width: 1280px) {
+  .header {
+ width: 1280px;
+ height: 683px;
+background-size: 100% 100%;
+  }
+  .header_text1 {
+    width: 600px;
+    height: 60px;
+    font-size: 60px;
+ padding-top: 310px;
+  }
+  .header_text2  {
+margin-bottom: 169px;
+  }
+  .navbar_konstrukt {
+ width: 1280px;
+ height: 50px;
+ margin-bottom: 45px;
+  }
+  .navbar_projeco-logo {
+padding-top: 19px;
+padding-left: 195px;
+}
+.navbar_frame {
+  width: 318px;
 
-/* Средние устройства (планшеты в альбомной ориентации, от 768 пикселей) */
-@media only screen and (min-width: 768px) {...}
+  margin-top: 21px;
+  margin-left: 330px
+}
+.about {
+width: 837px;
+height: 305px;
+margin-bottom: 105px;
+}
+.about_text_OUR_STORY {
+font-size: 16px;
+width: 108px;
+height: 23px;
+margin-left: 590px;
+}
+.about_Line {
+margin-left: 609px;
+margin-bottom: 45px;
+}
+.about_box-flex {
+ width: 836px;
+ height: 227px;
 
-/* Крупные устройства (ноутбуки/настольные компьютеры, от 992 пикселей) */
-@media only screen and (min-width: 992px) {...}
+}
+.about_box_cards-flex {
+width: 414px;
+height: 204px;
+ padding-top: 29px;
+ padding-left: 40px;
+ gap: 28px;
+}
+.about_box_cards-item1,
+.about_box_cards-item2,
+.about_box_cards-item3 {
+width: 124px;
+height: 200px;
+}
+.cards-item {
+font-size: 22px;
+font-weight: 700;
 
-/* Очень большие устройства (большие ноутбуки и настольные компьютеры, от 1200 пикселей и выше) */
-@media only screen and (min-width: 1200px) {...}
+width: 98px;
+height: 52px;
+padding-top: 14px;
+padding-left: 18px;
+}
+    }
+
+
+
+
+
+
+
+
+
+
+    /*  992 */
+    @media only screen and (max-width: 992px) {
+  .header {
+ width: 992px;
+height: 530px;
+
+  }
+  .header_text1 {
+    width: 414px;
+    height: 42px;
+    font-size: 42px;
+ padding-top: 214px;
+  }
+    .header_text2  {
+margin-bottom: 130px;
+  }
+    .navbar_konstrukt {
+ width: 992px;
+ height: 39px;
+ margin-bottom: 39px;
+  }
+  .navbar_projeco-logo {
+padding-top: 15px;
+padding-left: 151px;
+}
+.navbar_frame {
+  width: 246px;
+
+  margin-top: 16px;
+  margin-left: 256px
+}
+    }
+
+
+
+
+
+
+    /* 768*/
+    @media only screen and (max-width: 768px) {
+  .header {
+
+ width: 768px;
+height: 410px;
+
+  }
+   .header_text1 {
+    width: 320px;
+    height: 32px;
+    font-size: 32px;
+    padding-top: 148px;
+  }
+     .header_text2  {
+margin-bottom: 102px;
+  }
+   .navbar_konstrukt {
+ width: 768px;
+ height: 39px;
+ margin-bottom: 30px;
+  }
+  .navbar_projeco-logo {
+padding-top: 12px;
+padding-left: 117px;
+}
+.navbar_frame {
+  width: 190px;
+
+  margin-top: 12px;
+  margin-left: 198px
+}
+    }
+
+
+
+
+
+
+
+
+    /* 600 */
+    @media only screen and (max-width: 600px) {
+  .header {
+ width: 600px;
+height: 320px;
+
+  }
+     .header_text1 {
+    width: 250px;
+    height: 25px;
+    font-size: 25px;
+     padding-top: 102px;
+  }
+       .header_text2  {
+margin-bottom: 78px;
+  }
+     .navbar_konstrukt {
+ width: 600px;
+ height: 30px;
+ margin-bottom: 24px;
+  }
+  .navbar_projeco-logo {
+padding-top: 10px;
+padding-left: 91px;
+}
+.navbar_frame {
+  width: 145px;
+
+  margin-top: 10px;
+  margin-left: 155px
+}
+    }
