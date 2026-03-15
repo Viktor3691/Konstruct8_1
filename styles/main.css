@@ -39,7 +39,6 @@ height: 768px;
 background: #D8D8D8;
 border: 1px solid #979797;
 background-image: url('../img/bg.png');
-margin-bottom: 48px;
 }
 .projeco-logo {
 width: 101px;
@@ -91,7 +90,7 @@ color: #FFFFFF;
 width: 1440px;
 height: 65px;
 background: #fff;
-margin-bottom: 49px;
+margin-bottom: 61px;
 }
 .navbar_box_flex {
  display: flex;
@@ -167,7 +166,7 @@ color: #00A4E5;
 width: 1440px;
 height: 344px;
 background: #FFFFFF;
-margin-bottom: 118px;
+margin-bottom: 116px;
 }
 .about_text_OUR_STORY {
 width: 150px;
@@ -400,13 +399,15 @@ padding-left: 23px;
 
 
 /* КОНЕЦ: SECTION  services*/
-
+.box-zero {
+    height: 115px;
+}
 
 /* НАЧАЛО: SECTION  get-in-touch*/
 .get-in-touch {
 width: 1440px;
 max-height: 499px;
-background-image: url(../img/bg_get-in-touch.png);
+background-image: url('../img/bg_get-in-touch.png');
 background-repeat: no-repeat;
 }
 .get-in-touch_text {
