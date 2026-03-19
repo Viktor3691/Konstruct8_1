@@ -1,0 +1,258 @@
+
+/* max-width: 992px */
+@media  screen and (max-width: 992px) {
+.desktop {
+max-width: 992px;
+max-height: 1936px;
+}
+.container {
+max-width: 648px;
+padding: 0 178px;
+}
+/* НАЧАЛО: ШАПКА САЙТА  */
+.header {
+width: 992px;
+max-height: 529px;
+background-size: 100%;
+}
+.projeco-logo {
+width: 69px;
+height: 15px;
+padding-top: 28px;
+margin: 0 auto;
+}
+.header_text1 {
+width: 100%;
+padding-top: 213px;
+padding-bottom: 7px;
+font-size: 41px;
+}
+.header_text2 {
+font-size: 11px;
+margin-bottom: 130px;
+}
+/* КОНЕЦ: ШАПКА САЙТА  */
+
+
+/* НАЧАЛО: SECTION  navbar */
+.navbar_konstrukt {
+width: 992px;
+margin-bottom: 42px;
+}
+/* КОНЕЦ: SECTION  navbar*/
+
+
+/* НАЧАЛО: SECTION  about*/
+.about {
+width: 992px;
+height: 237px;
+margin-bottom: 80px;
+}
+/* КОНЕЦ: SECTION  about*/
+
+
+/* НАЧАЛО: SECTION  services*/
+.services {
+width: 992px;
+height: 321px;
+}
+/* КОНЕЦ: SECTION  services*/
+}
+
+
+   /* max-width: 768px */
+    @media  screen and (max-width: 768px) {
+.desktop {
+max-width: 768px;
+max-height: 1499px;
+}
+.container {
+max-width: 501px;
+padding: 0 133px;
+}
+/* НАЧАЛО: ШАПКА САЙТА  */
+.header {
+width: 768px;
+max-height: 410px;
+background-size: 100%;
+}
+.projeco-logo {
+width: 53px;
+height: 12px;
+padding-top: 21px;
+margin: 0 auto;
+}
+.header_text1 {
+width: 100%;
+padding-top: 165px;
+padding-bottom: 5px;
+font-size: 32px;
+}
+.header_text2 {
+font-size: 11px;
+margin-bottom: 80px;
+}
+/* КОНЕЦ: ШАПКА САЙТА  */
+
+
+/* НАЧАЛО: SECTION  navbar */
+.navbar_konstrukt {
+width: 768px;
+height: 35px;
+margin-bottom: 32px;
+}
+/* КОНЕЦ: SECTION  navbar*/
+
+
+/* НАЧАЛО: SECTION  about*/
+.about {
+width: 768px;
+height: 237px;
+margin-bottom: 61px;
+}
+/* КОНЕЦ: SECTION  about*/
+
+
+
+/* НАЧАЛО: SECTION  services*/
+.services {
+width: 768px;
+height: 248px;
+}
+/* КОНЕЦ: SECTION  services*/
+    }
+
+
+
+
+
+
+   /* max-width: 576px */
+    @media  screen and (max-width: 576px) {
+.desktop {
+max-width: 576px;
+max-height: 1124px;
+}
+.container {
+max-width: 376px;
+padding: 0 100px;
+}
+/* НАЧАЛО: ШАПКА САЙТА  */
+.header {
+width: 576px;
+max-height: 307px;
+background-size: 100%;
+}
+.projeco-logo {
+width: 40px;
+height: 9px;
+padding-top: 16px;
+margin: 0 auto;
+}
+.header_text1 {
+width: 100%;
+padding-top: 124px;
+padding-bottom: 4px;
+font-size: 24px;
+}
+.header_text2 {
+font-size: 11px;
+margin-bottom: 50px;
+}
+/* КОНЕЦ: ШАПКА САЙТА  */
+
+
+/* НАЧАЛО: SECTION  navbar */
+.navbar_konstrukt {
+width: 576px;
+height: 26px;
+margin-bottom: 26px;
+}
+/* КОНЕЦ: SECTION  navbar*/
+
+
+/* НАЧАЛО: SECTION  about*/
+.about {
+width: 576px;
+height:137px;
+margin-bottom: 46px;
+}
+/* КОНЕЦ: SECTION  about*/
+
+
+
+/* НАЧАЛО: SECTION  services*/
+.services {
+width: 576px;
+height: 186px;
+}
+/* КОНЕЦ: SECTION  services*/
+    }
+
+
+
+
+
+
+
+
+    /* max-width: 480px */
+    @media  screen and (max-width: 480px) {
+.desktop {
+max-width: 480px;
+max-height: 938px;
+}
+.container {
+max-width: 313px;
+padding: 0 83px;
+}
+/* НАЧАЛО: ШАПКА САЙТА  */
+.header {
+width: 480px;
+max-height: 256px;
+background-size: 100%;
+}
+.projeco-logo {
+width: 33px;
+height: 7,6px;
+padding-top: 13px;
+margin: 0 auto;
+}
+.header_text1 {
+width: 100%;
+padding-top: 103px;
+padding-bottom: 3px;
+font-size: 20px;
+}
+.header_text2 {
+font-size: 11px;
+margin-bottom: 25px;
+}
+/* КОНЕЦ: ШАПКА САЙТА  */
+
+
+/* НАЧАЛО: SECTION  navbar */
+.navbar_konstrukt {
+width: 480px;
+height: 20px;
+margin-bottom: 20px;
+}
+/* КОНЕЦ: SECTION  navbar*/
+
+
+/* НАЧАЛО: SECTION  about*/
+.about {
+width: 576px;
+height:137px;
+margin-bottom: 46px;
+}
+/* КОНЕЦ: SECTION  about*/
+
+
+/* НАЧАЛО: SECTION  services*/
+.services {
+width: 480px;
+height: 155px;
+}
+/* КОНЕЦ: SECTION  services*/
+    }
